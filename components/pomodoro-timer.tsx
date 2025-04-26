@@ -14,21 +14,6 @@ import { getRandomQuote } from "@/lib/quotes"
 import { requestNotificationPermission, sendNotification } from "@/utils/notifications"
 import ErrorBoundary from "@/components/error-boundary"
 
-const TimeUnit = React.memo(({ value, padZero }: { value: number; padZero?: boolean }) => {
-  const displayValue = padZero ? value.toString().padStart(2, "0") : value.toString()
-  return (
-    <motion.span
-      key={value}
-      initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.2 }}
-    >
-      {displayValue}
-    </motion.span>
-  )
-})
-TimeUnit.displayName = "TimeUnit"
-
 type TimerMode = "pomodoro" | "shortBreak" | "longBreak"
 
 interface TimerSettings {
@@ -513,11 +498,15 @@ export default function PomodoroTimer() {
                       aria-live="polite"
                       aria-atomic="true"
                     >
-                      <div className="text-6xl font-bold tabular-nums flex">
-                        <TimeUnit value={Math.floor(timeLeft / 60)} />
-                        <span>:</span>
-                        <TimeUnit value={timeLeft % 60} padZero />
-                      </div>
+                      <motion.span
+                        key={timeLeft}
+                        initial={{ scale: 0.8, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{ duration: 0.2 }}
+                        className="text-6xl font-bold tabular-nums"
+                      >
+                        {formatTime(timeLeft)}
+                      </motion.span>
                     </div>
                   </div>
 
