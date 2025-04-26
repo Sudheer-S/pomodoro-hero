@@ -31,7 +31,7 @@ export default function Home() {
       "ratingValue": "4.8",
       "ratingCount": "1250"
     },
-    "downloadUrl": "https://pomodoro-hero.vercel.app",
+    "downloadUrl": "https://pomodoro-clock-hero.vercel.app",
     "featureList": [
       "Custom Pomodoro Intervals",
       "Task Management",

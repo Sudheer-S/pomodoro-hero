@@ -24,25 +24,25 @@ export default function BenefitsOfPomodoroPage() {
     headline: "The Science-Backed Benefits of the Pomodoro Technique",
     description:
       "Boost your productivity, sharpen your focus, and improve your well-being with the scientifically proven Pomodoro Technique. Learn how this powerful method works.",
-    image: "https://pomodoro-hero.vercel.app/og-image.png",
+    image: "https://pomodoro-clock-hero.vercel.app/og-image.png",
     datePublished: "2023-04-24T00:00:00Z",
     dateModified: "2023-04-24T00:00:00Z",
     author: {
       "@type": "Organization",
       name: "Pomodoro Hero Team",
-      url: "https://pomodoro-hero.vercel.app",
+      url: "https://pomodoro-clock-hero.vercel.app",
     },
     publisher: {
       "@type": "Organization",
       name: "Pomodoro Hero",
       logo: {
         "@type": "ImageObject",
-        url: "https://pomodoro-hero.vercel.app/logo.png",
+        url: "https://pomodoro-clock-hero.vercel.app/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://pomodoro-hero.vercel.app/blog/benefits-of-pomodoro",
+      "@id": "https://pomodoro-clock-hero.vercel.app/blog/benefits-of-pomodoro",
     },
   }
 

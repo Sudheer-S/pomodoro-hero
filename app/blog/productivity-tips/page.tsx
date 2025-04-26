@@ -25,25 +25,25 @@ export default function ProductivityTipsPage() {
     headline: "10 Expert Productivity Tips to Supercharge Your Pomodoro Technique",
     description:
       "Unlock your peak performance! Discover 10 proven strategies to get the most out of your Pomodoro sessions and skyrocket your productivity.",
-    image: "https://pomodoro-hero.vercel.app/og-image.png",
+    image: "https://pomodoro-clock-hero.vercel.app/og-image.png",
     datePublished: "2023-03-15T00:00:00Z",
     dateModified: "2023-03-15T00:00:00Z",
     author: {
       "@type": "Organization",
       name: "Pomodoro Hero Team",
-      url: "https://pomodoro-hero.vercel.app",
+      url: "https://pomodoro-clock-hero.vercel.app",
     },
     publisher: {
       "@type": "Organization",
       name: "Pomodoro Hero",
       logo: {
         "@type": "ImageObject",
-        url: "https://pomodoro-hero.vercel.app/logo.png",
+        url: "https://pomodoro-clock-hero.vercel.app/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://pomodoro-hero.vercel.app/blog/productivity-tips",
+      "@id": "https://pomodoro-clock-hero.vercel.app/blog/productivity-tips",
     },
   }
 

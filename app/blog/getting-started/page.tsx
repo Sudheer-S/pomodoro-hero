@@ -21,25 +21,25 @@ export default function GettingStartedPage() {
     "@type": "Article",
     headline: "Getting Started with Pomodoro Hero - Your Guide to Focused Productivity",
     description: "Learn how to use Pomodoro Hero to boost your productivity, manage time effectively, and achieve your goals with our simple getting started guide.",
-    image: "https://pomodoro-hero.vercel.app/og-image.png",
+    image: "https://pomodoro-clock-hero.vercel.app/og-image.png",
     datePublished: "2023-04-25T00:00:00Z",
     dateModified: "2023-04-25T00:00:00Z",
     author: {
       "@type": "Organization",
       name: "Pomodoro Hero Team",
-      url: "https://pomodoro-hero.vercel.app",
+      url: "https://pomodoro-clock-hero.vercel.app",
     },
     publisher: {
       "@type": "Organization",
       name: "Pomodoro Hero",
       logo: {
         "@type": "ImageObject",
-        url: "https://pomodoro-hero.vercel.app/logo.png",
+        url: "https://pomodoro-clock-hero.vercel.app/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://pomodoro-hero.vercel.app/blog/getting-started",
+      "@id": "https://pomodoro-clock-hero.vercel.app/blog/getting-started",
     },
   }
 

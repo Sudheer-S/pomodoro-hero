@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pomodoro-hero.vercel.app'
+  const baseUrl = 'https://pomodoro-clock-hero.vercel.app'
   const currentDate = new Date()
   
   return [

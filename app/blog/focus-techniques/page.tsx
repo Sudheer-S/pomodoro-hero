@@ -25,25 +25,25 @@ export default function FocusTechniquesPage() {
     headline: "Beyond Pomodoro: Additional Focus Techniques for Deep Work",
     description:
       "Explore complementary focus techniques that work well alongside the Pomodoro method for achieving deep, meaningful work.",
-    image: "https://pomodoro-hero.vercel.app/og-image.png",
+    image: "https://pomodoro-clock-hero.vercel.app/og-image.png",
     datePublished: "2023-02-02T00:00:00Z",
     dateModified: "2023-02-02T00:00:00Z",
     author: {
       "@type": "Organization",
       name: "Pomodoro Hero Team",
-      url: "https://pomodoro-hero.vercel.app",
+      url: "https://pomodoro-clock-hero.vercel.app",
     },
     publisher: {
       "@type": "Organization",
       name: "Pomodoro Hero",
       logo: {
         "@type": "ImageObject",
-        url: "https://pomodoro-hero.vercel.app/logo.png",
+        url: "https://pomodoro-clock-hero.vercel.app/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://pomodoro-hero.vercel.app/blog/focus-techniques",
+      "@id": "https://pomodoro-clock-hero.vercel.app/blog/focus-techniques",
     },
   }
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "concentration techniques", "time blocking guide", "focus improvement"
   ],
   alternates: {
-    canonical: "https://pomodoro-hero.vercel.app/blog"
+    canonical: "https://pomodoro-clock-hero.vercel.app/blog"
   }
 }
 

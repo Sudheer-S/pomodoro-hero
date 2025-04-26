@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pomodoro-hero.vercel.app"),
+  metadataBase: new URL("https://pomodoro-clock-hero.vercel.app"),
   title: {
     default: "Pomodoro Hero - Best Free Focus Timer & Productivity App",
     template: "%s | Pomodoro Hero"
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://pomodoro-hero.vercel.app",
+    url: "https://pomodoro-clock-hero.vercel.app",
     title: "Pomodoro Hero - Focus Timer for Enhanced Productivity",
     description: "Boost your productivity with Pomodoro Hero - A modern, customizable Pomodoro timer that helps you stay focused and achieve more.",
     siteName: "Pomodoro Hero",

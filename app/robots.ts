@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/private/'],
     },
-    sitemap: 'https://pomodoro-hero.vercel.app/sitemap.xml',
+    sitemap: 'https://pomodoro-clock-hero.vercel.app/sitemap.xml',
   }
 } 
