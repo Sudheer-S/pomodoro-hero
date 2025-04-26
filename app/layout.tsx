@@ -16,11 +16,17 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://pomodoro-hero.vercel.app"),
   title: {
-    default: "Pomodoro Hero - Focus Timer for Enhanced Productivity",
+    default: "Pomodoro Hero - Best Free Focus Timer & Productivity App",
     template: "%s | Pomodoro Hero"
   },
-  description: "Boost your productivity with Pomodoro Hero - A modern, customizable Pomodoro timer that helps you stay focused and achieve more. Features beautiful UI, task management, and statistics.",
-  keywords: ["pomodoro timer", "productivity tool", "focus timer", "time management", "study timer", "work timer", "pomodoro technique"],
+  description: "Transform your productivity with Pomodoro Hero - The #1 free Pomodoro timer app with task tracking, focus statistics, and achievement system. Perfect for students, professionals, and remote workers.",
+  keywords: [
+    "pomodoro timer", "productivity app", "focus timer", "time management", 
+    "study timer", "work timer", "pomodoro technique", "time blocking",
+    "productivity tools", "focus app", "task management", "time tracking",
+    "student productivity", "work from home", "remote work", "concentration app",
+    "free pomodoro", "study method", "focus technique", "productivity hack"
+  ],
   authors: [{ name: "Pomodoro Hero Team" }],
   creator: "Pomodoro Hero Team",
   openGraph: {

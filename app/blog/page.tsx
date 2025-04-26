@@ -4,8 +4,17 @@ import Link from "next/link"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata: Metadata = {
-  title: "Pomodoro Hero Blog - Productivity Hacks & Focus Strategies",
-  description: "Unlock powerful productivity tips, Pomodoro hacks, and focus techniques to maximize your time, energy, and mental clarity.",
+  title: "Productivity & Focus Blog | Expert Tips & Strategies",
+  description: "Free productivity tips, time management techniques, and focus strategies. Learn how to boost your efficiency, study better, and achieve work-life balance.",
+  keywords: [
+    "productivity tips", "time management blog", "focus techniques",
+    "study strategies", "work efficiency", "pomodoro method",
+    "productivity blog", "student productivity", "work from home tips",
+    "concentration techniques", "time blocking guide", "focus improvement"
+  ],
+  alternates: {
+    canonical: "https://pomodoro-hero.vercel.app/blog"
+  }
 }
 
 export default function BlogPage() {
