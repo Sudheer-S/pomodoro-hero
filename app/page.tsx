@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Boost your productivity with our Pomodoro timer. Track tasks, earn achievements, and stay focused with distraction-free mode.",
   verification: {
-    google: 'AQ3iiUzzJwNzXMgKRANMbAB4aeSjfyZciHmR1bYLqhY',
+    google: 'Cu1t59ZR1meWcXiSLx-ehUR95h9bnC31fqm7dIehS5o',
   },
 }
 
