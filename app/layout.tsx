@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Pomodoro Hero Team" }],
   creator: "Pomodoro Hero Team",
+  other: {
+    'google-adsense-account': 'ca-pub-3922114990800886'
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
