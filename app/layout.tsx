@@ -84,7 +84,29 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          {/* 1. First render the actual app content */}
           {children}
+
+          {/* 2. Then show the paragraph BELOW the timer */}
+          <section className="max-w-3xl mx-auto mt-10 mb-10 px-2 text-center">
+            <h2 className="text-2xl font-bold mb-4">Pomodoro Clock Hero - Boost Your Productivity</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Pomodoro Clock Hero is a simple and powerful tool designed to help you stay focused and manage your time effectively. 
+              Using the Pomodoro Technique, you can work in focused sessions and take short breaks to maximize productivity and avoid burnout. 
+              Start a session, track your time, and take control of your workflow — one Pomodoro at a time!
+            </p>
+            <p className="text-gray-700 dark:text-gray-300">
+              Learn more about the{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Pomodoro_Technique"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-500 dark:text-red-400 underline"
+              >
+                Pomodoro Technique
+              </a>.
+            </p>
+          </section>
         </ThemeProvider>
       </body>
     </html>
